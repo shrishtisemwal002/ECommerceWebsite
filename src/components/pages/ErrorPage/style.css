@@ -1,0 +1,13 @@
+.errorPage h1{
+    -webkit-text-stroke: 1px;
+}
+.errorPage h1, .errorPage h3 {
+    text-align: center;
+}
+.errorPage{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}

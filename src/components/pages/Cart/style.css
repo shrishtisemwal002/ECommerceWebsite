@@ -1,0 +1,52 @@
+.cart{
+    width: 88%;
+    margin: auto;
+}
+.emptyCart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 60%;  
+    margin: 2%;
+}
+table th,table td{
+    border-bottom: 1px solid grey;
+    padding: 1% 0%;
+}
+table td{
+    text-align: center;
+}
+
+.orderSummary {
+    border: none;
+    box-shadow: 0px 0px 5px 0px black;
+    width: 25%;
+    text-align: center;
+    padding: 2%;
+    height: 250px;
+    background-color: rgb(39, 32, 63);
+    color: white;
+}
+
+.orderSummary p{
+    font-size: 1.5rem;
+    padding: 2% 0%;
+}
+
+.orderSummary button {
+    padding: 4% 5%;
+    margin: 4rem;
+    border: none;
+    background-color: rgb(92, 80, 255);
+    color:  white;
+    border-radius: 5px;
+}
+
+.cartContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0%;
+}

@@ -1,0 +1,39 @@
+.footer{
+    background-color: rgb(39, 32, 63);
+    color: white;
+}
+.footerLists {
+    display: flex;
+    padding: 5%;
+}
+
+.footerLogoContainer, .footerLinks, .footerUsefulLinks, .footerContactInfo {
+    margin: 0% auto;
+}
+
+.footerLogoContainer {
+    width: 30%;
+}
+.footerLogoContainer h1 , .footer h2{
+    padding: 3% 0%;
+}
+.footerLinks, .footerUsefulLinks, .footerContactInfo{
+    width: 15%;
+}
+
+.footerLinks li, .footerUsefulLinks li, .footerContactInfo li{
+    list-style-type: none;
+    padding: 4% 0%;
+}
+.footerLinks li a, .footerUsefulLinks li a {
+    text-decoration: none;
+    color: white;
+}
+.copyrightInfo {
+    text-align: center;
+    padding: 3%;
+}
+
+.footerLogoContainer h1{
+    font-size: 3rem;
+}

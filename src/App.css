@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(39, 32, 63);;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+}
+button{
+    transition: all 0.5s ;
+}

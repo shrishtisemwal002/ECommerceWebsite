@@ -1,0 +1,18 @@
+.service {
+    padding: 2%;
+    width: 23%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.serviceContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    width: 88%;
+    margin: auto;
+}
+
+.service:hover{
+    transform: scale(1.05);
+}

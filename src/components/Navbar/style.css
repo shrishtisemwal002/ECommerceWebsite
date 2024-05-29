@@ -1,0 +1,25 @@
+.navBar {
+    width: 50%;
+    margin: auto;
+}
+.navList {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navItem a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navItem a:hover{
+    transform: scale(2);
+    border-bottom: 2px solid  rgb(39, 32, 63);;
+}
+
+.navItem{
+    list-style-type: none;
+    padding: 0% 4%;
+    margin: 0% 2%;
+}

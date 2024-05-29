@@ -1,0 +1,44 @@
+.productItem {
+    margin: 0% 2%;
+}
+
+.cardHeading {
+    text-align: center;
+}
+
+.cardHeading h3{
+    font-size: 1.1rem;
+    color: rgb(39, 32, 63);
+    font-weight: 600;
+    margin-top: 1%;
+}
+
+.productCardText {
+    display: flex;
+    justify-content: space-around;
+}
+
+.productCardText .price{
+    font-size: 1.3rem;
+    font-weight: 500;
+} 
+
+.productCardText button i{
+    font-size: 1.2rem;
+    padding: 20%;
+    background-color:rgb(39, 32, 63);
+    color: white;
+    border-radius: 50px;
+} 
+.productCardText button {
+    border: none;
+}
+.productItem {
+    margin: 3% 1%;
+    transition: all 0.2s;
+}
+
+.productItem:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+}

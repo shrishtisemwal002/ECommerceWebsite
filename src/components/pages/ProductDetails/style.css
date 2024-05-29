@@ -1,0 +1,67 @@
+.productDetails {
+    display: flex;
+}
+
+.imageContainer, .productDescription {
+    width: 50%;
+}
+.productDescription {
+    padding: 5% 2%;
+}
+.productDescription h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1%;
+}
+.productDescription p {
+    padding: 2% 0%;
+    line-height: 2rem;
+}
+.productDescription span i {
+    color: coral;
+}
+.addToCartBtn{
+    background-color: rgb(39, 32, 63);
+    color: white;
+    padding: 2% 5%;
+    margin: 2% 0%;
+    border: none;
+    border-radius: 10px;
+}
+
+.productPrice {
+    font-size: 3rem;
+    margin: 2% 0%;
+}
+
+.reviewSection {
+    display: flex;
+    padding: 0% 2%;
+}
+
+.reviewSection> h3{
+    margin: 0% 2%;
+    cursor: pointer;
+    font-weight: normal;
+    padding-top: 2%;
+}
+
+.activeTab{
+    -webkit-text-stroke: 1px; 
+}
+
+.tabContent, .reviewContent{
+    padding: 2% 4%;
+}
+
+.tabContent p{
+    line-height: 35px;
+}
+
+.reviewContent ul li{
+    list-style-type: none;
+    padding: 0.5% 0%;
+}
+.reviewContent ul li span{
+    color: coral;
+    font-weight: 500;
+}

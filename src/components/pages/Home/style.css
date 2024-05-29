@@ -1,0 +1,51 @@
+.homeSection {
+    display: flex;
+    padding: 5%;
+    background-color: rgba(134, 182, 201, 0.644);
+}
+
+.homeSection > div{
+    width: 50%;
+}
+
+.leftHomeSection {
+    padding: 2% 4%;
+}
+
+.leftHomeSection h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(39, 32, 63);
+    margin: 2% 0%;
+}
+
+.leftHomeSection p{
+    color: #111;
+    line-height: 28px;
+}
+
+.shopBtn {
+    border: 0px;
+    outline: 0px;
+    padding: 2% 3%;
+    border-radius: 5px;
+    background-color: rgb(39, 32, 63);
+    font-size: 1rem;
+    margin-top: 4%;
+}
+.shopBtn a{
+    color: white;
+}
+
+.leftHomeSection p:nth-child(1){
+    font-weight: 500;
+}
+
+.trendingProductHeading {
+    color: rgb(39, 32, 63);
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 3%;
+    font-style: italic;
+}
